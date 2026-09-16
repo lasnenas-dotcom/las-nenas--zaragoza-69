@@ -1,3 +1,12 @@
+
+
+const SUPABASE_URL = "https://kmikbflcshgyfueevzkf.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_-XnjQfKEjS_feiIOYzr3Qg_56Dfca50;
+
+const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_PUBLISHABLE_KEY
+);
 const profiles=[
  {name:"Laura",age:24,zone:"Zaragoza centro",img:"https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=700&q=80"},
  {name:"Sofía",age:28,zone:"Delicias",img:"https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=700&q=80"},
